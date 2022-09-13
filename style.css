@@ -74,7 +74,7 @@ table {
   display: grid;
   height: 100vh;
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: 1fr 7fr;
+  grid-template-rows: 1fr 3fr;
 }
 
 .sidebar {
@@ -82,13 +82,20 @@ table {
   min-width: 130px;
   grid-row: 1/3;
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 20% auto;
+  grid-template-rows: 1fr 3fr;
 }
 
 .sidebar-logo {
-  height: 150px;
-  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar-logo>*{
+  height: auto;
+  width: 100%;
+  max-width: 170px;
+  border-radius: 4rem;
 }
 
 .sidebar-options {
@@ -97,8 +104,10 @@ table {
   font-size: clamp(1rem, 2vw, 2rem);
   display: flex;
   flex-direction: column;
-  gap: 2rem;
-  margin-left: min(3vw, 20px);
+}
+
+.sidebar-options>*{
+  padding: 1rem
 }
 
 .header {
