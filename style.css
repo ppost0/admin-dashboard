@@ -68,12 +68,25 @@ table {
 }
 
 .sidebar {
-  background-color: rgb(88, 47, 124);
+  background-color: rgb(88, 50, 121);
   min-width: 130px;
   max-width: 230px;
   grid-row: 1/3;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 20% auto;
 }
 
 .header {
   min-height: 150px;
+}
+
+.main-content {
+  min-width: 200px;
+}
+
+.sidebar-options {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
