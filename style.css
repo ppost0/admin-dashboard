@@ -149,6 +149,33 @@ table {
 .header {
   min-height: 150px;
   background-color: #64748b;
+  display: grid;
+  grid-template-rows: 1fr 1.5fr;
+  grid-template-columns: 1.5fr 1fr;
+  align-items: center;
+}
+
+.search-bar {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+
+.search-icon {
+  position: absolute;
+  margin-left: 10px;
+
+}
+
+.search-bar>input {
+  border: 1px solid grey;
+  border-radius: 10px;
+  height: 30px;
+  width: 100%;
+  padding: 2px 23px 2px 40px;
+  outline: 0;
+  background-color: #cbd5e1;
 }
 
 .main-content {
