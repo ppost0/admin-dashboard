@@ -354,3 +354,14 @@ table {
 .new-img {
   height: 40px;
 }
+
+.trending-guides,
+.new-guides {
+  font-size: 12px;
+  border: 1px solid red;
+  min-width: 150px;
+}
+
+.trending-guides {
+  margin-bottom: 10px;
+}
