@@ -314,15 +314,17 @@ table {
 
 
 .content-wrapper {
-  padding-top: 15px;
+  padding: 20px;
   display: flex;
+  gap: 20px;
 }
 
 
 .content-guides {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   flex: 2 1 0;
+  gap: 15px;
 }
 
 
@@ -331,7 +333,6 @@ table {
 }
 
 .content-side {
-  align-self: flex-end;
   flex: 1 1 0;
 }
 
