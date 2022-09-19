@@ -49,7 +49,6 @@ footer, header, hgroup, menu, nav, section {
 body {
   color: #f8fafc;
 	line-height: 1;
-  height: 100vh;
   width: 100vw;
 }
 ol, ul {
@@ -156,7 +155,7 @@ table {
 
 
 .header {
-  min-height: 150px;
+  min-height: 200px;
   background-color: #64748b;
   display: grid;
   grid-template-rows: 1fr 1.5fr;
@@ -322,8 +321,8 @@ table {
 
 .content-guides {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  flex: 2 1 0;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  flex: 4 1 0;
   gap: 15px;
 }
 
