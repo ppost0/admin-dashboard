@@ -333,6 +333,7 @@ table {
   color: #0f172a;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border: 2px solid black;
+  border-left: 10px solid #0f172a;
   background-color: #8d9caf;
   display: flex;
   flex-direction: column;
